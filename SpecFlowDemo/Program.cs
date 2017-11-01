@@ -10,21 +10,13 @@ namespace SpecFlowDemo
     {
         static void Main(string[] args)
         {
-            int r = Sum(10,20);
+            Calculator calc = new Calculator();
+            int r = calc.Sum();
 
             Console.WriteLine(r.ToString());
 
             Console.ReadLine();
         }
-
-        static int Sum(int a, int b)
-        {
-            return a + b;
-        }
     }
-    public class Calculator
-    {
-        public int rusult = 0;
-
-    }
+    
 }

@@ -13,19 +13,32 @@ namespace SpecFlowDemo.Test
         [Given(@"I have entered (.*) into the calculator")]
         public void GivenIHaveEnteredIntoTheCalculator(int p0)
         {
-            calc.rusult += p0;
+            calc.valA = p0;
         }
-        
+
+        [Given(@"Again I have entered (.*) into the calculator")]
+        public void ThenAgainIHaveEnteredIntoTheCalculator(int p0)
+        {
+            calc.valB = p0;
+        }
+
+        [Given(@"Once Again I have entered (.*) into the calculator")]
+        public void ThenOnceAgainIHaveEnteredIntoTheCalculator(int p0)
+        {
+            calc.valC = p0;
+        }
+
         [When(@"I press add")]
         public void WhenIPressAdd()
         {
             //ScenarioContext.Current.Pending();
+            calc.Deduct();
         }
         
         [Then(@"the result should be (.*) on the screen")]
         public void ThenTheResultShouldBeOnTheScreen(int p0)
         {
-            Assert.AreEqual(p0, calc.rusult);
+            Assert.AreEqual(p0, calc.result);
         }
     }
 }
