@@ -32,7 +32,7 @@ namespace SpecFlowDemo.Test
         public void WhenIPressAdd()
         {
             //ScenarioContext.Current.Pending();
-            calc.Deduct();
+            calc.Sum();
         }
         
         [Then(@"the result should be (.*) on the screen")]
