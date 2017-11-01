@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("SpecFlowDemo.Wed.Test")]
+[assembly: AssemblyTitle("SpecFlowDemoWeb.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("SpecFlowDemo.Wed.Test")]
+[assembly: AssemblyProduct("SpecFlowDemoWeb.Test")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

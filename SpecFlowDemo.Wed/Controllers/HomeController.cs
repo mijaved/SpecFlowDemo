@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SpecFlowDemo.Wed.Controllers
+namespace SpecFlowDemoWeb.Controllers
 {
     public class HomeController : Controller
     {

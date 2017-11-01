@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowDemo.Wed.Test
+namespace SpecFlowDemoWeb.Test
 {
     using TechTalk.SpecFlow;
     
@@ -62,7 +62,7 @@ namespace SpecFlowDemo.Wed.Test
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Contact")))
             {
-                global::SpecFlowDemo.Wed.Test.ContactFeature.FeatureSetup(null);
+                global::SpecFlowDemoWeb.Test.ContactFeature.FeatureSetup(null);
             }
         }
         

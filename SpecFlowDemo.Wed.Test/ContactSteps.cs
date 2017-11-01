@@ -2,7 +2,7 @@
 using System;
 using TechTalk.SpecFlow;
 
-namespace SpecFlowDemo.Wed.Test
+namespace SpecFlowDemoWeb.Test
 {
     [Binding]
     public class ContactSteps : SeleniumTestBase

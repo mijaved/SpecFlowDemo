@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpecFlowDemo.Wed.Test
+namespace SpecFlowDemoWeb.Test
 {
     public static class DriverExtentions
     {
-        static string baseURL = "http://localhost:52030/";
+        static string baseURL = "http://localhost:52030";
 
         public static void FillText(this RemoteWebDriver d, string fieldName, string value)
         {

@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SpecFlowDemo.Wed.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SpecFlowDemoWeb.MvcApplication" Language="C#" %>

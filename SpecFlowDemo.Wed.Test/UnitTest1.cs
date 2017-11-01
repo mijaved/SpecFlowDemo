@@ -6,7 +6,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Chrome;
 
-namespace SpecFlowDemo.Wed.Test
+namespace SpecFlowDemoWeb.Test
 {
     public class SeleniumTestBase
     {
